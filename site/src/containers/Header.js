@@ -1,14 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router';
 
-const Header = React.createClass({
+class Header extends React.Component {
   render() {
-    return (
-      <div className="header">
-        <div className="App-header">
-          <h1>Matt Jaikaran</h1>
-          <h3>Yup</h3>
-        </div>
+    return <div className="App-header">
+      <h1>Matt Jaikaran</h1>
+      <h3>Yup</h3>
         <div className="navBar">
           <ul>
             <li><Link to="/">Home</Link></li>
@@ -16,10 +13,9 @@ const Header = React.createClass({
             <li><Link to="/portfolio">Portfolio</Link></li>
             <li><Link to="/contact">Contact</Link></li>
           </ul>
-        </div>
       </div>
-    );
+  </div>
   }
-});
+}
 
-export default Header;
+module.exports = Header;

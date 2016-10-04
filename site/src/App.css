@@ -5,10 +5,11 @@
 
 
 .App-header {
-  background-color: grey;
-  height: 150px;
+  background-color: black;
+  height: 200px;
   padding: 20px;
   color: white;
+  margin-top: -3%;
 }
 
 .App-intro {
@@ -19,12 +20,22 @@ h2 {
   font-family: 'Roboto', sans-serif;
 }
 
-.navbar {
-  display: block;
-  align-items: center;
-  list-style-type: none;
+.navBar {
+  padding-top: -55%;
+}
+
+.navBar > ul {
+  display: inline-block;
   padding: 0;
   margin: 0;
+}
+
+a {
+  color: slategrey;
+}
+
+a:visited {
+  color: gray;
 }
 
 .footer {
@@ -32,10 +43,7 @@ h2 {
   color: white;
 }
 
+
 ul {
   list-style-type: none;
-}
-
-.navBar > ul {
-  display: inline;
 }
