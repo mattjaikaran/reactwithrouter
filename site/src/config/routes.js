@@ -3,8 +3,6 @@ import App from '../App';
 
 import { Router, Route, IndexRoute, hashHistory } from 'react-router';
 import Home from '../containers/Home';
-import Header from '../containers/Header';
-import Nav from '../containers/Nav';
 import About from '../containers/About';
 import Portfolio from '../containers/Portfolio';
 import Contact from '../containers/Contact';

@@ -1,14 +1,11 @@
 import React from 'react';
-import Nav from './Nav';
 
-const Home = React.createClass({
+class Home extends React.Component {
   render() {
-    return (
-        <div className="Home">
-          <p>Suh dude!</p>
-      </div>
-    );
+    return <div className="Home">
+      <p>Suh dude</p>
+    </div>
   }
-});
+}
 
-export default Home;
+module.exports = Home;

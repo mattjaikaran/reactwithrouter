@@ -1,21 +1,18 @@
 import React from 'react';
 
-const About = React.createClass({
+class About extends React.Component {
   render() {
-    return (
-      <div className="aboutMe">
-        <h2>About</h2>
-        <p>
-          I'm a web developer based in NYC. I attended General Assembly for Fullstack Web Development <br />
-        I graduated from Belmont University with a double major in Music Business and Marketing.</p>
+    return <div className="aboutMe">
+      <h2>About</h2>
+      <p>
+        I am a web developer</p>
 
-        <h3>Experience</h3>
-        <p>
-          HTML5, CSS3, JavaScript/ES6, React, Node, Mongo, Express, Ruby,
-          Rails, WordPress, Digital Marketing, Social Media, SEO</p>
-      </div>
-    );
+      <h3>Hello</h3>
+      <p>
+        More Hellos
+      </p>
+    </div>
   }
-});
+}
 
-export default About;
+module.exports = About;

@@ -1,9 +1,8 @@
 import React from 'react';
 
-const Contact = React.createClass({
+class Contact extends React.Component {
   render() {
-    return (
-      <div className="contactMe">
+    return <div className="contactMe">
         <h2>Contact</h2>
           <div className="socialIcons">
             <a href="http://github.com/mattjaikaran"><img src={require('../pics/github.png')} /></a>
@@ -28,8 +27,7 @@ const Contact = React.createClass({
         </div>
         </div>
       </div>
-    );
   }
-});
+}
 
-export default Contact;
+module.exports = Contact;

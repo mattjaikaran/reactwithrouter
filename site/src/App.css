@@ -21,6 +21,7 @@ h2 {
 
 .navbar {
   display: block;
+  align-items: center;
   list-style-type: none;
   padding: 0;
   margin: 0;
@@ -29,4 +30,12 @@ h2 {
 .footer {
   background-color: black;
   color: white;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.navBar > ul {
+  display: inline;
 }

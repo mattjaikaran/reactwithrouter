@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router';
 
-const Nav = React.createClass({
+class Nav extends React.Component {
   render() {
-    return (
+    return
         <div className="navbar">
           <ul>
             <li><Link to="/">Home</Link></li>
@@ -12,8 +12,7 @@ const Nav = React.createClass({
             <li><Link to="/contact">Contact</Link></li>
           </ul>
       </div>
-    );
   }
-});
+}
 
-export default Nav;
+module.exports = Nav;
